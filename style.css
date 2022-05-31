@@ -98,10 +98,10 @@ body {
 
 .Backgroud {
   position: absolute;
-  width: 392px;
-  height: 587.15px;
-  left: 0;
-  top: 104px;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+  background-size: contain;
   background-image: url(image/background_img.png);
   background-repeat: no-repeat;
 }
