@@ -12,8 +12,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-@media only screen and (max-width: 1200px){
-  /*Tablets [601px -> 1200px]*/
 
 body {
   width: 100vw;
@@ -423,9 +421,12 @@ body {
 }
 
 .skilltag {
+  /*
   display: flex;
   flex-direction: row;
-  align-items: center;
+  */
+  float: left;
+  gap: 10px;
   position: absolute;
 
   /* top: 586px; */
@@ -862,5 +863,4 @@ body {
   position: absolute;
   top: 3831px;
   margin-left: 281px;
-}
 }
