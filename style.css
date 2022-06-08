@@ -910,6 +910,7 @@ body {
   margin-top: 16px;
   height: 120px;
   width: 327px;
+
   /* margin-left: -25px; */
   padding: 20px;
 }
@@ -969,13 +970,15 @@ form button:active {
   background: #2230d2;
   color: #fff;
 }
-.end-contact{
+
+.end-contact {
   position: absolute;
   width: 134px;
   height: 5px;
+
   /* Mono/Black */
   margin-top: 735px;
-  margin-left: 0px;
-  background: #0D151E;
+  margin-left: 0;
+  background: #0d151e;
   border-radius: 10px;
 }
