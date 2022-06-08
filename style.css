@@ -533,6 +533,10 @@ body {
   margin-top: 15px;
   margin-left: 15px;
 }
+.Social-Icon-about{
+  display: flex;
+  flex-direction: row;
+}
 
 .twiiter-symbol-about {
   position: absolute;
@@ -552,22 +556,23 @@ body {
   position: absolute;
   width: 4.97px;
   height: 13.72px;
-  margin-top: 50px;
+  margin-top: 227px;
   background: #505f79;
   margin-left: 63px;
-  top: 3306px;
+  top: 3128px;
 }
 
 .symbol-m-about {
   position: absolute;
   width: 20px;
+  margin-top: -93px;
 
   /* height: 16px;
   left: 103px;
   right: 252px;
   top: 473px;
   bottom: 138px; */
-  top: 3352px;
+  /* top: 3174px; */
   margin-left: 188px;
   background: #505f7900;
 }
@@ -591,10 +596,10 @@ body {
   top: 473.03px;
   bottom: 136px; */
 
-  /* margin-top: 50px; */
+  margin-top: 176px;
   margin-left: 70px;
   background: #505f7900;
-  top: 3353px;
+  top: 3176px;
 }
 
 .finger-Symbol-about {
@@ -615,7 +620,8 @@ body {
   position: absolute;
   width: 4.97px;
   height: 4.97px;
-  bottom: -2504px;
+  /* bottom: -2382px; */
+  margin-top: -42px;
   margin-left: 63px;
   background: #505f7900;
 }
@@ -822,6 +828,9 @@ body {
   color: #253858;
 }
 
+.Ide{
+  display: flex;
+}
 .Frameworks {
   margin-top: 20px;
   margin-left: 12px;
@@ -840,8 +849,9 @@ body {
 
 .Arrow {
   position: absolute;
-  top: 3777px;
+  /* top: 3602px; */
   margin-left: 281px;
+  margin-top: 27px;
 }
 
 .bottom-separator {
@@ -858,7 +868,7 @@ body {
 
 .Arrow2 {
   position: absolute;
-  top: 3831px;
+  margin-top: 27px;
   margin-left: 281px;
 }
 
@@ -937,3 +947,13 @@ letter-spacing: 0.03em;
 color: #6070FF;
 }
 textarea::placeholder {color:#B3BAC5;}
+form button:hover {
+  background: #6070ff;
+  color: #ffffff;
+
+  box-shadow: 0 8px 16px rgba(64,83, 252,0.24);
+}
+form button:active{
+  background: #2230d2;
+  color: #FFFFFF;
+}
