@@ -534,6 +534,11 @@ body {
   margin-left: 15px;
 }
 
+.Social-Icon-about {
+  display: flex;
+  flex-direction: row;
+}
+
 .twiiter-symbol-about {
   position: absolute;
   width: 19.99px;
@@ -552,22 +557,24 @@ body {
   position: absolute;
   width: 4.97px;
   height: 13.72px;
-  margin-top: 50px;
+  margin-top: 227px;
   background: #505f79;
   margin-left: 63px;
-  top: 3306px;
+  top: 3128px;
 }
 
 .symbol-m-about {
   position: absolute;
   width: 20px;
+  margin-top: -93px;
 
   /* height: 16px;
   left: 103px;
   right: 252px;
   top: 473px;
   bottom: 138px; */
-  top: 3352px;
+
+  /* top: 3174px; */
   margin-left: 188px;
   background: #505f7900;
 }
@@ -591,10 +598,10 @@ body {
   top: 473.03px;
   bottom: 136px; */
 
-  /* margin-top: 50px; */
+  margin-top: 176px;
   margin-left: 70px;
   background: #505f7900;
-  top: 3353px;
+  top: 3176px;
 }
 
 .finger-Symbol-about {
@@ -615,7 +622,9 @@ body {
   position: absolute;
   width: 4.97px;
   height: 4.97px;
-  bottom: -2504px;
+
+  /* bottom: -2382px; */
+  margin-top: -42px;
   margin-left: 63px;
   background: #505f7900;
 }
@@ -822,6 +831,10 @@ body {
   color: #253858;
 }
 
+.Ide {
+  display: flex;
+}
+
 .Frameworks {
   margin-top: 20px;
   margin-left: 12px;
@@ -840,8 +853,10 @@ body {
 
 .Arrow {
   position: absolute;
-  top: 3777px;
+
+  /* top: 3602px; */
   margin-left: 281px;
+  margin-top: 27px;
 }
 
 .bottom-separator {
@@ -858,6 +873,117 @@ body {
 
 .Arrow2 {
   position: absolute;
-  top: 3831px;
+  margin-top: 27px;
   margin-left: 281px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(image/final_contact_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 375px;
+  height: 750px;
+  margin-top: 50px;
+  border-top-left-radius: 50px;
+  background-color: #6070ff;
+}
+
+.contact-form h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 110px;
+  padding: 10px;
+  margin-left: 0;
+}
+
+.contact-form p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #ebebff;
+  text-align: center;
+  margin-top: 16px;
+  height: 120px;
+  width: 327px;
+
+  /* margin-left: -25px; */
+  padding: 0;
+}
+
+form input {
+  background: #fff;
+
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 48px;
+  width: 327px;
+}
+
+form textarea {
+  background: #fff;
+
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 170px;
+  width: 327px;
+}
+
+form button {
+  background: #fff;
+
+  /* Base/100 */
+
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 48px;
+  width: 140px;
+  border: 1px solid #cfd8dc;
+  padding: 12px 16px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+textarea::placeholder { color: #b3bac5; }
+
+form button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+form button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.end-contact {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+
+  /* Mono/Black */
+  margin-top: 735px;
+  margin-left: 0;
+  background: #0d151e;
+  border-radius: 10px;
 }
