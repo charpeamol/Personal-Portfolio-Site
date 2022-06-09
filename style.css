@@ -895,20 +895,20 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: center;
   color: #fff;
   margin-top: 110px;
   padding: 10px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .contact-form p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  font-family: 'Poppins' ,Arial, Helvetica, sans-serif;;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   color: #ebebff;
   text-align: center;
@@ -917,7 +917,7 @@ body {
   width: 327px;
 
   /* margin-left: -25px; */
-  padding: 0px;
+  padding: 0;
 }
 
 form input {
